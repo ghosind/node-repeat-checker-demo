@@ -22,11 +22,11 @@
   "homepage": "https://github.com/ghosind/node-repeat-checker-demo#readme",
   "dependencies": {
     "cookie-parser": "^1.4.4",
-    "express": "^4.16.4",
-    "http-errors": "^1.7.2",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
     "morgan": "^1.9.1",
     "node-sass-middleware": "^0.11.0",
-    "pug": "^2.0.3",
-    "repeat-checker": "0.0.1"
+    "pug": "^2.0.4",
+    "repeat-checker": "0.0.2"
   }
 }

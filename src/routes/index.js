@@ -1,8 +1,8 @@
 const express = require('express');
-const Checker = require('repeat-checker');
+const { MemoryChecker } = require('repeat-checker');
 
 const router = express.Router();
-const checker = new Checker();
+const checker = new MemoryChecker();
 
 router.get('/', (req, res) => {
   if (!checker.checkAndSet('index', 1000)) {
